@@ -1,3 +1,0 @@
-#Welcome to railway Reservation system
-1.login page
-2.Select thr Name of the customer
