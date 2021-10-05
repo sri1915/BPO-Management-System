@@ -1,0 +1,269 @@
+
+<html>
+<head>
+<title> Registration Form </title>
+
+<style>
+body{ 
+background-image:url('https://cdn.pixabay.com/photo/2015/05/15/14/22/conference-room-768441_960_720.jpg');
+background-size: cover;
+ }
+</style>
+
+<script type="text/javascript">
+function validation()
+
+
+
+{
+
+
+if(document.f1.name1.value=="")
+{
+window.alert("Plz Enter Your First Name");
+return false;
+}
+
+
+else if(document.f1.name2.value=="")
+{
+window.alert("Plz Enter Your Last Name");
+return false;
+}
+
+
+else if(document.f1.DOB. value=="")
+{
+window.alert("Plz Enter Your DOB");
+return false;
+}
+
+
+else if(document.f1.email.value=="")
+{
+window.alert("Plz Enter Your E-mail:");
+return false;
+}
+
+
+else if(document.f1.email.value.indexOf('@gmail.com')==-1)
+{
+window.alert("Plz Enter Your Valid E-mail");
+return false;
+}
+
+
+else if(document.f1.password.value=="")
+{
+window.alert("Plz Enter Your Password");
+return false;
+}
+
+
+else if(document.f1.confirm password.value=="")
+{
+window.alert("Plz Confirm Your Password");
+return false;
+}
+
+
+else if(document.f1.ph no.value=="")
+{
+window.alert("Plz Enter Your Phone no");
+return false;
+}
+
+
+else  if((document.f1.chk[0].checked==false)&&(document.f1.chk[1].checked==false)&&(document.f1.chk[2].checked==false))
+{
+window.alert("Plz Select Your Qualification");
+return false;
+}
+
+
+
+else if(document.f1.addr.value=="")
+{
+window.alert("Plz Enter Your Address");
+return false;
+}
+s
+
+
+
+else if((document.f1.rdo[0].checked==false)&&(document.f1.rdo[1].checked==false)&&(document.f1.rdo[2].checked==false))
+{
+window.alert("Plz Choose Your Gender");
+return false;
+}
+
+
+
+else if(document.f1.country.selectedIndex==0)
+{
+window.alert("Plz Select Your Country");
+return false;
+}
+
+
+
+
+else
+return true;
+}
+
+
+</script>
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+<h3 style="text-align:center">Bpo Management System  Registration Form</h3>
+
+<form name="f1" action="Register.html" onsubmit="return validation()">
+
+<fieldset>
+
+<legend>Registration Form</legend> <br/>
+
+<table border="1">
+
+
+
+
+<tr> <td>First Name:</td> <td><input type="text" name="name1" size="31"></td> </tr>
+
+
+<tr> <td>Last Name:</td> <td><input type="text" name="name2" size="31"></td> </tr>
+
+
+<tr> <td>DOB:</td> <td><input type="date" date="DOB" size="15"></td> </tr>
+
+
+<tr> <td>E-mail:</td> <td><input type="text" name="email" size="31"></td> </tr>
+
+
+<tr> <td>Password:</td> <td><input type="text" name="password" size="31"></td> </tr>
+
+
+<tr> <td>Confirm Password:</td> <td><input type="text" name="confirmpassword" size="31"></td> </tr>
+
+
+<tr> <td>Phone no</td> <td><input type="text" name="ph no" size="15"></td> </tr>
+
+
+
+ <tr> 
+<td>Qualification:</td> <td>
+<input type="checkbox" name="chk">B.E
+<input type="checkbox" name="chk">M.E
+<input type="checkbox" name="chk">Ph.D.
+<input type="checkbox" name="chk">others
+</td>
+ </tr> 
+
+
+
+<tr> <td>Address:</td> <td><Textarea name="addr" rows="5" cols="25"></Textarea></td> </tr>
+
+
+<tr>
+ 	<td>Gender:</td>
+<td>
+ 		<input type="radio" name="rdo">Male 
+ 		<input type="radio" name="rdo">Female <input type="radio"   
+ 		 name="rdo">Others
+</td>
+ </tr>
+
+
+<tr> 
+<td>Country:</td> 
+<td> <select name="country">
+<option>---Select Your Country---</option>
+<option>India</option>
+<option>China</option>
+<option>Nepal</option>
+<option>Myanmmar</option>
+</select>
+ 	</td> 
+</tr>
+
+
+
+</table> <br/>
+
+
+
+
+
+<input type="subm 		 name="rdo">Others
+</td>
+ </tr>
+
+
+<tr> 
+<td>Country:</td> 
+<td> <select name="country">
+<option>---Select Your Country---</option>
+<option>India</option>
+<option>China</option>
+<option>Nepal</option>
+<option>Myanmmar</option>
+</select>
+ 	</td> 
+</tr>
+
+
+
+</table> <br/>
+
+
+
+
+
+
+<input type="submit" value="Register"> </fieldset> </form> </body> </ht>
+it" value="Register"> </fieldset> </form> </body> </ht>
+
+
+
+
+
+
+<input type="subm 		 name="rdo">Others
+</td>
+ </tr>
+
+
+<tr> 
+<td>Country:</td> 
+<td> <select name="country">
+<option>---Select Your Country---</option>
+<option>India</option>
+<option>China</option>
+<option>Nepal</option>
+<option>Myanmmar</option>
+</select>
+ 	</td> 
+</tr>
+
+
+
+</table> <br/>
+
+
+
+
+
+
+<input type="submit" value="Register"> </fieldset> </form> </body> </ht>
+it" value="Register"> </fieldset> </form> </body> </ht>
